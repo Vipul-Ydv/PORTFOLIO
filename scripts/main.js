@@ -418,11 +418,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Handle form submission
 const contactForm = document.getElementById('contact-form');
+
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        // Add your form submission logic here
-        alert('Thanks for reaching out! I\'ll get back to you soon.');
-        contactForm.reset();
+
+        const formData = new FormData(contactForm);
+
+        fetch(contactForm.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                alert('Thanks for reaching out! I\'ll get back to you soon.');
+                contactForm.reset();
+            } else {
+                alert('Oops! There was a problem submitting your form.');
+            }
+        }).catch(error => {
+            alert('Error sending form. Please try again later.');
+            console.error(error);
+        });
     });
-} 
+}
