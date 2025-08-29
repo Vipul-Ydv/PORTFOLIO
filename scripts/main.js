@@ -4,7 +4,7 @@ const projects = [
         title: "Bert Emotion",
         description: "A BERT-powered tool to analyze and visualize text emotions, featuring a sleek Streamlit web app.",
         technologies: ["PYTHON","ML", "PYTORCH", "STREAMLIT", "BERT"],
-        image: "assets/images/projects/Home.png",
+        image: "assets/images/projects/BERT.png",
         link: "https://github.com/Vipul-Ydv/BERT_EMOTION",
         caption: "This one hit right in the heart. So proud."
     },
@@ -460,6 +460,7 @@ if (contactForm) {
         });
     });
 }
+
 
 
 
