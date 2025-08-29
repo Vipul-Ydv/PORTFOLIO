@@ -1,12 +1,12 @@
 // Project Data
 const projects = [
     {
-        title: "Weather Forecast Website",
-        description: "A beautiful weather app that tells you if you need an umbrella or sunglasses.",
-        technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
+        title: "Bert Emotion",
+        description: "A BERT-powered tool to analyze and visualize text emotions, featuring a sleek Streamlit web app.",
+        technologies: ["PYTHON","ML", "PYTORCH", "STREAMLIT", "BERT"],
         image: "assets/images/projects/weather.png",
-        link: "https://vipul-ydv.github.io/PRODIGY_WD_05/",
-        caption: "This one made me cry. But also proud."
+        link: "https://github.com/Vipul-Ydv/BERT_EMOTION",
+        caption: "This one hit right in the heart. So proud."
     },
     {
         title: "Personal Portfolio",
@@ -25,12 +25,28 @@ const projects = [
         caption: "Where dreams and job applications go to die."
     },
     {
-    title: "Stopwatch Web App",
-    description: "A sleek, responsive stopwatch with start, stop, reset, and lap features—crafted using vanilla HTML, CSS, and JavaScript.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    image: "assets/images/projects/watch.png",
-    link: "https://vipul-ydv.github.io/PRODIGY_WD_02/",  // replace with your actual link
-    caption: "Because every second counts—and so do your skills."
+        title: "Weather Forecast Website",
+        description: "A beautiful weather app that tells you if you need an umbrella or sunglasses.",
+        technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
+        image: "assets/images/projects/weather.png",
+        link: "https://vipul-ydv.github.io/PRODIGY_WD_05/",
+        caption: "This one made me cry. But also proud."
+    },
+    {
+        title: "Weather Forecast Website",
+        description: "A beautiful weather app that tells you if you need an umbrella or sunglasses.",
+        technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
+        image: "assets/images/projects/weather.png",
+        link: "https://vipul-ydv.github.io/PRODIGY_WD_05/",
+        caption: "This one made me cry. But also proud."
+    },
+    {
+        title: "Weather Forecast Website",
+        description: "A beautiful weather app that tells you if you need an umbrella or sunglasses.",
+        technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
+        image: "assets/images/projects/weather.png",
+        link: "https://vipul-ydv.github.io/PRODIGY_WD_05/",
+        caption: "This one made me cry. But also proud."
 }
 
 ];
@@ -444,3 +460,4 @@ if (contactForm) {
         });
     });
 }
+
