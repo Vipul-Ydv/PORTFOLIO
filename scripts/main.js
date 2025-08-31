@@ -6,6 +6,7 @@ const projects = [
         technologies: ["PYTHON","ML", "PYTORCH", "STREAMLIT", "BERT"],
         image: "assets/images/projects/BERT.png",
         link: "https://github.com/Vipul-Ydv/BERT_EMOTION",
+        visit_link: "https://bertemotion.streamlit.app/",
         caption: "This one hit right in the heart. So proud."
     },
     {
@@ -14,6 +15,7 @@ const projects = [
         technologies: ["HTML", "CSS", "JavaScript", "Three.js"],
         image: "assets/images/projects/portfolio.png",
         link: "https://vipul-yadav-s.github.io/website/",
+        visit_link: "https://vipul-yadav-s.github.io/website/",
         caption: "Meta much?"
     },
     {
@@ -22,31 +24,26 @@ const projects = [
         technologies: ["Python", "Streamlit", "SerpAPI", "Pandas", "Cosine Similarity"],
         image: "assets/images/projects/job.png",
         link: "https://resparr.streamlit.app/",
+        visit_link: "https://resparr.streamlit.app/",
         caption: "Where dreams and job applications go to die."
     },
     {
-        title: "Weather Forecast Website",
-        description: "A beautiful weather app that tells you if you need an umbrella or sunglasses.",
-        technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
-        image: "assets/images/projects/weather.png",
-        link: "https://vipul-ydv.github.io/PRODIGY_WD_05/",
-        caption: "This one made me cry. But also proud."
+        title: "Movie Recommendation System",
+        description: "Recommend movies based on your favorite movies.",
+        technologies: ["Pandas", "Streamlit", "Python", "Cosine Similarity"],
+        image: "assets/images/projects/movie.png",
+        link: "https://github.com/Vipul-Ydv/Movie-Recommendation-System",
+        visit_link: "https://movie-recommendation-syss.streamlit.app/",
+        caption: "Just give me the recommendations already!"
     },
     {
-        title: "Weather Forecast Website",
-        description: "A beautiful weather app that tells you if you need an umbrella or sunglasses.",
-        technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
-        image: "assets/images/projects/weather.png",
-        link: "https://vipul-ydv.github.io/PRODIGY_WD_05/",
-        caption: "This one made me cry. But also proud."
-    },
-    {
-        title: "Weather Forecast Website",
-        description: "A beautiful weather app that tells you if you need an umbrella or sunglasses.",
-        technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
-        image: "assets/images/projects/weather.png",
-        link: "https://vipul-ydv.github.io/PRODIGY_WD_05/",
-        caption: "This one made me cry. But also proud."
+        title: "Loan Eligibility Predictor",
+        description: "Predict if you are eligible for a loan based on your income, loan amount, and other factors.",
+        technologies: ["scikit-learn","Streamlit", "Pandas", "NumPy", "Machine Learning", "Python"],
+        image: "assets/images/projects/loan.png",
+        link: "https://github.com/Vipul-Ydv/LOAN-prediction",
+        visit_link: "https://load-predd.streamlit.app/",
+        caption: "I hope you are eligible for a loan."
 }
 
 ];
@@ -55,8 +52,8 @@ const projects = [
 const skills = [
     {
         name: "HTML/CSS",
-        level: "Expert",
-        description: "Making things pretty since 2022",
+        level: "Intermediate",
+        description: "Making things pretty since 2023",
         icon: "🎨"
     },
     {
@@ -68,7 +65,7 @@ const skills = [
     {
         name: "Python",
         level: "Advanced",
-        description: "Making things work since 2020",
+        description: "Making things work since 2024",
         icon: "🐍"
     },
     {
@@ -80,19 +77,19 @@ const skills = [
     {
         name: "Streamlit",
         level: "Intermediate",
-        description: "Making things persist since 2021",
+        description: "Making things persist since 2024",
         icon: "🔥"
     },
     {
-        name: "React",
-        level: "Advanced",
-        description: "Building UIs that don't make users cry",
+        name: "Machine Learning",
+        level: "Intermediate",
+        description: "Building models and predicting things",
         icon: "⚛️"
     },
     {
-        name: "Node.js",
-        level: "Intermediate",
-        description: "Making servers that don't crash",
+        name: "Deep Learning",
+        level: "Beginner",
+        description: "Teaching AI to be less dumb",
         icon: "🟢"
     },
     {
@@ -102,15 +99,15 @@ const skills = [
         icon: "📦"
     },
     {
-        name: "Three.js",
+        name: "TensorFlow/Keras",
         level: "Intermediate",
-        description: "Making 3D things in the browser",
+        description: "Making AI things",
         icon: "🎯"
     },
     {
-        name: "Rasa",
+        name: "Selenium",
         level: "Intermediate",
-        description: "Teaching AI to be less dumb",
+        description: "Automating things",
         icon: "🤖"
     },
 ];
@@ -118,46 +115,34 @@ const skills = [
 // Blog Posts Data
 const blogPosts = [
     {
-        title: "Day 17 of building the chatbot",
-        excerpt: "It now greets me with existential dread. Progress?",
-        date: "2024-03-15",
-        readTime: "2 min read"
+        title: "Working on Blog Section",
+        excerpt: "Working on Blog Section and adding more projects and skills.",
+        date: "2025-08-31",
+        readTime: "1 min read"
     },
-    {
-        title: "The Great CSS Battle",
-        excerpt: "Me vs. CSS Grid: A tale of love, hate, and flexbox.",
-        date: "2024-03-10",
-        readTime: "3 min read"
-    },
-    {
-        title: "Debugging at 3 AM",
-        excerpt: "Why do all the best ideas come when you're half asleep?",
-        date: "2024-03-05",
-        readTime: "4 min read"
-    }
 ];
 
 // Timeline Data
 const timeline = [
     {
-        year: "2022",
+        year: "2023",
         title: "Getting Started",
         description: "Began learning web development with HTML and built my first basic web pages."
     },
     {
-        year: "2023",
-        title: "JavaScript in Action",
-        description: "Explored JavaScript and learned how to make websites interactive and dynamic."
+        year: "2024",
+        title: "Machine Learning in Action",
+        description: "Explored Machine Learning and learned how to make models and predict things."
     },
     {
-    year: "2024",
-    title: "3D Exploration",
-    description: "Started using Blender and got into 3D modeling and animation for fun and creativity."
+        year: "2025",
+        title: "More Machine Learning in Action",
+        description: "Started using complex machine learning models and got better at it."
     },
     {
-    year: "2025",
-    title: "Putting It All Together",
-    description: "Integrated front-end, back-end, and APIs to build complete, functional applications."
+        year: "2025",
+        title: "Working on Deep Learning",
+        description: "Using complex deep learning models and getting better at it."
     }
 
 ];
@@ -234,6 +219,7 @@ function createProjectCards() {
                 ${project.technologies.map(tech => `<span>${tech}</span>`).join('')}
             </div>
             <a href="${project.link}" class="project-link">View Project</a>
+            <a href="${project.visit_link}" class="project-link">Visit Project</a>
             <p class="project-caption">${project.caption}</p>
         `;
         projectsGrid.appendChild(card);
@@ -415,6 +401,7 @@ document.addEventListener('DOMContentLoaded', () => {
         createSkillsCards();
         createBlogPosts();
         createTimeline();
+        initProfileImage();
 
         // Add hover effects to project cards
         document.querySelectorAll('.project-card').forEach(card => {
@@ -431,6 +418,144 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Error during initialization:', error);
     }
 });
+
+// Profile Image Interactive Features
+function initProfileImage() {
+    const profileImage = document.getElementById('profile-image');
+    const profileWrapper = document.querySelector('.profile-image-wrapper');
+    const floatingIcons = document.querySelectorAll('.floating-icon');
+    
+    if (!profileImage || !profileWrapper) return;
+
+    // Add click event for profile image
+    profileWrapper.addEventListener('click', () => {
+        // Create a ripple effect
+        const ripple = document.createElement('div');
+        ripple.className = 'ripple-effect';
+        ripple.style.cssText = `
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 107, 107, 0.3);
+            transform: scale(0);
+            animation: ripple 0.6s linear;
+            pointer-events: none;
+            width: 100px;
+            height: 100px;
+            top: 50%;
+            left: 50%;
+            margin-left: -50px;
+            margin-top: -50px;
+        `;
+        
+        profileWrapper.appendChild(ripple);
+        
+        // Remove ripple after animation
+        setTimeout(() => {
+            ripple.remove();
+        }, 600);
+        
+        // Show a fun message
+        showProfileMessage();
+    });
+
+    // Add mouse move effect for 3D tilt
+    profileWrapper.addEventListener('mousemove', (e) => {
+        const rect = profileWrapper.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        
+        const rotateX = (y - centerY) / 10;
+        const rotateY = (centerX - x) / 10;
+        
+        profileWrapper.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
+    });
+
+    profileWrapper.addEventListener('mouseleave', () => {
+        profileWrapper.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
+    });
+
+    // Make floating icons interactive
+    floatingIcons.forEach((icon, index) => {
+        icon.addEventListener('click', () => {
+            // Create a burst effect
+            icon.style.transform = 'scale(1.5) rotate(360deg)';
+            icon.style.opacity = '1';
+            
+            setTimeout(() => {
+                icon.style.transform = '';
+                icon.style.opacity = '0.7';
+            }, 300);
+            
+            // Show different messages based on icon
+            const messages = [
+                "🎨 Art is life!",
+                "💻 Code is poetry!",
+                "🚀 Let's build something amazing!",
+                "✨ Magic happens here!"
+            ];
+            
+            showFloatingMessage(messages[index], icon);
+        });
+    });
+}
+
+function showProfileMessage() {
+    const messages = [
+        "👋 Hey there!",
+        "🎯 That's me!",
+        "💪 Ready to create!",
+        "🚀 Let's build something!"
+    ];
+    
+    const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+    showFloatingMessage(randomMessage, document.querySelector('.profile-image-wrapper'));
+}
+
+function showFloatingMessage(message, element) {
+    const messageEl = document.createElement('div');
+    messageEl.className = 'floating-message';
+    messageEl.textContent = message;
+    messageEl.style.cssText = `
+        position: absolute;
+        background: var(--primary-color);
+        color: white;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        white-space: nowrap;
+        z-index: 1000;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.3s ease;
+        pointer-events: none;
+    `;
+    
+    document.body.appendChild(messageEl);
+    
+    // Position the message
+    const rect = element.getBoundingClientRect();
+    messageEl.style.left = rect.left + rect.width / 2 - messageEl.offsetWidth / 2 + 'px';
+    messageEl.style.top = rect.top - 50 + 'px';
+    
+    // Animate in
+    setTimeout(() => {
+        messageEl.style.opacity = '1';
+        messageEl.style.transform = 'translateY(-10px)';
+    }, 10);
+    
+    // Animate out and remove
+    setTimeout(() => {
+        messageEl.style.opacity = '0';
+        messageEl.style.transform = 'translateY(-30px)';
+        setTimeout(() => {
+            messageEl.remove();
+        }, 300);
+    }, 2000);
+}
 
 // Handle form submission
 const contactForm = document.getElementById('contact-form');
