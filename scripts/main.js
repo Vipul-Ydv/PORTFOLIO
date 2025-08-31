@@ -15,7 +15,7 @@ const projects = [
         technologies: ["HTML", "CSS", "JavaScript", "Three.js"],
         image: "assets/images/projects/portfolio.png",
         link: "https://vipul-yadav-s.github.io/website/",
-        visit_link: "https://vipul-yadav-s.github.io/website/",
+        visit_link: "https://vipul-ydv.github.io/PORTFOLIO/",
         caption: "Meta much?"
     },
     {
@@ -585,6 +585,7 @@ if (contactForm) {
         });
     });
 }
+
 
 
 
